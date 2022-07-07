@@ -30,7 +30,7 @@ body {
 .donate-btn {
     text-align: center;
     text-decoration: none;
-    background-color: tomato;
+    background-color: blue;
     color: white;
     padding: 8px;
     border-radius: 5px;
@@ -38,6 +38,11 @@ body {
 
 h4 {
     text-align: center;
+}
+
+.sub-titel {
+    text-align: center;
+    color: rgb(113, 109, 109);
 }
 
 /* //////////////////////////// */
@@ -65,15 +70,15 @@ h4 {
 
 .amount2 {
     width: 20%;
-    background-color: rgba(255, 99, 71, 0.296);
+    background-color: rgba(0, 0, 255, 0.248);
     margin: 20px;
     text-align: center;
-    border: 4px solid tomato;
+    border: 4px solid blue;
     border-radius: 6px;
     /* padding-top: 5px; */
     /* padding-bottom: 5px; */
     font-size: 1.1rem;
-    color: tomato;
+    color: blue;
 }
 
 .amount3 {
@@ -150,7 +155,8 @@ input[type='text'] {
 }
 
 .plan-1 img {
-    width: 60%;
+    width: 25%;
+    margin-top: 45px;
 }
 
 .plan-2 {
@@ -163,7 +169,8 @@ input[type='text'] {
 }
 
 .plan-2 img {
-    width: 60%;
+    width: 25%;
+    margin-top: 45px;
 }
 
 .plan-3 {
@@ -176,7 +183,8 @@ input[type='text'] {
 }
 
 .plan-3 img {
-    width: 60%;
+    width: 25%;
+    margin-top: 45px;
 }
 
 
@@ -224,4 +232,67 @@ input[type='text'] {
     border-radius: 5px;
 
 
+}
+
+/* //////////// */
+
+.game-titel {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 70px;
+}
+
+.last-bar {
+    display: flex;
+    margin: 0% 20% auto;
+}
+
+.last-img {
+    width: 45%;
+    height: 370px;
+
+
+}
+
+.last-img img {
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.last-p {
+    width: 50%;
+    margin-left: 10%;
+
+}
+
+
+
+.last-p a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+/* /////////////// */
+
+.over {
+    background-color: black;
+    text-align: center;
+}
+
+.finishing-tush {
+    color: white;
+}
+
+.mission-over {
+    color: blue;
+}
+
+.over p {
+    color: white;
 }
